@@ -1,0 +1,55 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/* submit Button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.hvr-fade {
+  text-decoration: none;
+  background: #8b3737;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  color: #fff;
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 15px;
+
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-fade:hover, .hvr-fade-fade:focus, .hvr-fade-fade:active{
+  background-color: #752f2f;
+  color: white;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); /* Nanum Gothic */
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css); /* Hanna (Korean) */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); /* Noto Sans KR */
+@import url(https://fonts.googleapis.com/css?family=Stylish);
+
+header {
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'noto sans kr', sans-serif;
+}
+
+* {
+  font-family: 'Stylish', sans-serif;
+  font-size: 16px;
+}
+section {
+  font-family: 'noto sans kr' , sans-serif;
+  margin-top: 100px;
+  float: right;
+}
+.h3 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'hanna', serif;
+}
+
+body{
+background-color:black;
+}
+
+a:visited{
+color : white;
+
+}
+a {text-decoration:none;
+color: white;
+}
+
+input{
+margin-bottom:11px;
+}
+table{
+  width:65%;
+}
+p{
+color : white;
+}
+.center {
+    text-align: center;
+}
+
+.wrap{
+position:relative;
+overflow:hidden;
+width:98%;
+padding:50px;
+margin:0 1%;
+background:#fff;
+box-sizing:border-box;
+}
+
+.name {
+  margin-left: 1140px;
+}
+
+ul, li{
+list-style:none;
+}
+
+input{
+margin-bottom:11px;
+height:30px;
+
+}
+input[type=submit]{
+position:absolute;
+right:20;
+}
+
+.simple-info{
+  font-size: 19px;
+  font-style: oblique;
+  font-family: 'Stylish', sans-serif;
+}

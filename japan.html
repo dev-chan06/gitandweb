@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+      <meta charset="utf-8">
+      <title>Japan</title>
+      <link rel="stylesheet" href="css/dropdown.css">
+      <link rel="stylesheet" href="css/background.css">
+      <link rel="stylesheet" href="css/gallery.css">
+	  <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+    <script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+
+		</head>
+        <body>
+        <br><br><br><br>
+        <center>
+        <table border="0" bordercolor="white" cellspacing = "0" style="width:65%;">
+            <tr>
+                <td><font color="white"><center><a href="index.html">Main</a></center></font></td>
+                <td><font color="white"><center><a href="photography.html">Photography</a></center></font></td>
+
+                    <td class="dropdown"><center><a href="travel.html">Travel</a></center>
+
+                    <div class="dropdown-content">
+                      <a href="korea.html" title="한국">Korea</a>
+                      <a href="japan.html" title="일본">Japan</a>
+                      <a href="europe.html" title="유럽">Europe</a>
+                    </div>
+
+                    </td>
+
+                <td><font color="white"><center><a href="aboutme.html">About me</a></center></font></td>
+                <td><font color="white"><center><a href="contactme.html">Contact me</a></center></font></td>
+            </tr>
+
+        </table>
+
+            <br>
+            <br>
+            <table border="0" style="width=100%" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+              <tbody><tr bgcolor="#FFFFFF"><td width="65%">
+                    <p><center><font size=5 color="black"></font></center></p>
+
+                  <img src="img/japan.png" style="width="100%"" border=0 align=left vspace=28 hspace=50>
+                  <div class="row">
+                    <div class="column">
+                      <img src="img/japan/japan6_small.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="img/japan/japan2_small.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="img/japan/japan3_small.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="img/japan/japan4_small.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="img/japan/japan5_small.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="img/japan/japan1_small.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="img/japan/japan7_small.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="img/japan/japan8_small.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="img/japan/japan9_small.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                    </div>
+                  </div>
+
+                  <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                      <div class="mySlides">
+                        <div class="numbertext">1 / 9</div>
+                        <img src="img/japan/japan6.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">2 / 9</div>
+                        <img src="img/japan/japan2.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">3 / 9</div>
+                        <img src="img/japan/japan3.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">4 / 9</div>
+                        <img src="img/japan/japan4.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">5 / 9</div>
+                        <img src="img/japan/japan5.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">6 / 9</div>
+                        <img src="img/japan/japan1.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">7 / 9</div>
+                        <img src="img/japan/japan7.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">8 / 9</div>
+                        <img src="img/japan/japan8.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">9 / 9</div>
+                        <img src="img/japan/japan9.jpg" style="width:100%">
+                      </div>
+
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                      <div class="caption-container">
+                        <p id="caption"></p>
+                      </div>
+
+
+
+                      <div class="size">
+                        <img class="demo cursor" src="img/japan/japan6.jpg" style="width:100%" onclick="currentSlide(1)" alt="일본, 도쿄">
+                      </div>
+                      <div class="size">
+                        <img class="demo cursor" src="img/japan/japan2.jpg" style="width:100%" onclick="currentSlide(2)" alt="일본, 라면">
+                      </div>
+                      <div class="size">
+                        <img class="demo cursor" src="img/japan/japan3.jpg" style="width:100%" onclick="currentSlide(3)" alt="일본, 도쿄시티 야경">
+                      </div>
+                      <div class="size">
+                        <img class="demo cursor" src="img/japan/japan4.jpg" style="width:100%" onclick="currentSlide(4)" alt="일본, 109">
+                      </div>
+                      <div class="size">
+                        <img class="demo cursor" src="img/japan/japan5.jpg" style="width:100%" onclick="currentSlide(5)" alt="일본, 신주쿠 ">
+                      </div>
+                      <div class="size">
+                        <img class="demo cursor" src="img/japan/japan1.jpg" style="width:100%" onclick="currentSlide(6)" alt="일본 ,백화점">
+                      </div>
+                      <div class="size">
+                        <img class="demo cursor" src="img/japan/japan7.jpg" style="width:100%" onclick="currentSlide(7)" alt="일본, 아사쿠사">
+                      </div>
+                      <div class="size">
+                        <img class="demo cursor" src="img/japan/japan8.jpg" style="width:100%" onclick="currentSlide(8)" alt="일본, 초밥">
+                      </div>
+                      <div class="size">
+                        <img class="demo cursor" src="img/japan/japan9.jpg" style="width:100%" onclick="currentSlide(9)" alt="일본, 온천">
+                      </div>
+                </div>
+              </table>
+              <p class="name">HIMCHAN YUN</p>
+              </body>
+              </html>

@@ -1,0 +1,73 @@
+.<!doctype html>
+<html lang="ko">
+    <head>
+            <meta charset="utf-8">
+        <title>contactme</title>
+        <link rel="stylesheet" href="css/dropdown.css">
+        <link rel="stylesheet" href="css/background.css">
+        <link rel="stylesheet" href="css/Form.css">
+  <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+        <table border="0" bordercolor="white" cellspacing = "0" style="width:65%;">
+            <tr>
+                <td><font color="white"><center><a href="index.html">Main</a></center></font></td>
+                <td><font color="white"><center><a href="photography.html">Photography</a></center></font></td>
+
+                    <td class="dropdown"><center><a href="travel.html">Travel</a></center>
+
+                    <div class="dropdown-content">
+                      <a href="korea.html" title="한국">Korea</a>
+                      <a href="japan.html" title="일본">Japan</a>
+                      <a href="europe.html" title="유럽">Europe</a>
+                    </div>
+
+                    </td>
+
+                <td><font color="white"><center><a href="aboutme.html">About me</a></center></font></td>
+                <td><font color="white"><center><a href="#" onclick="history.go(0)">Contact me</a></center></font></td>
+            </tr>
+
+        </table>
+            <br>
+            <br>
+
+
+
+          <table border="0" width="65%" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" >
+            <tr bgcolor="#FFFFFF">
+                <td width="65%"><center>
+                    &nbsp;</center>
+                </td>
+            </tr>
+             <tr><td>
+               <img class="center" src = "img/cm_mail_anime.gif" style="width=100%" border=0 align=center vspace=10 hspace=50>
+
+               <div class="container">
+                  <form action="php/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
+
+                    <label for="email">Last Name</label>
+                    <input type="text" id="email" name="E-mail" placeholder="Enter your email.."></input>
+
+                    <label for="number">Phone Number</label>
+                    <input type="text" id="number" name="Phone number" placeholder="Enter your phone number.."></input>
+
+                    <label for="Message">Message</label>
+                    <textarea id="Message" name="Message" placeholder="Write something.." style="height:100px"></textarea>
+
+                        <a class="hvr-fade" href="thankyou.html">전송하기</a>
+                      </div>
+                  </form>
+              </div>
+             <br><br>
+
+                </td>
+                </tr>
+                </table>
